@@ -5,7 +5,7 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ## ❓ Description
-    Ce conteneur Docker est destiné aux étudiants de Holberton pour leur fournir une version locale plus rapide et simplifiée de leur environnement de développement. Il contient un certain nombre de paquets utiles qui sont nécessaires ou utiles pour travailler sur des projets Holberton.
+Ce conteneur Docker est destiné aux étudiants de Holberton pour leur fournir une version locale plus rapide et simplifiée de leur environnement de développement. Il contient un certain nombre de paquets utiles qui sont nécessaires ou utiles pour travailler sur des projets Holberton.
 
 ## 📝 Comment l'installer :
 ### Prérequis
