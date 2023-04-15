@@ -5,25 +5,28 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ## ❓ Description
-    Container holberton en version locale et plus rapide pour faciliter la vie aux étudiants
+    Ce conteneur Docker est destiné aux étudiants de Holberton pour leur fournir une version locale plus rapide et simplifiée de leur environnement de développement. Il contient un certain nombre de paquets utiles qui sont nécessaires ou utiles pour travailler sur des projets Holberton.
 
 ## 📝 Comment l'installer :
-``
-    Windows :
-        ./start.bat
-    Linux / MacOS :
-        ./start.sh
-``
+### Prérequis
+- Docker doit être installé sur votre système
 
-"workingdir" est un dossier qui s'ajoutera automatiquement sur votre container et où vous pouvez ajouter des fichiers lors de l'installation.
+### Instructions
+1. Cloner le dépôt : git clone https://github.com/RedginaldGodeau/Holberton-Docker-Container.git
+2. Accéder au répertoire : cd Holberton-Docker-Container
+3. Lancer le conteneur :
+    - Windows : ./start.bat
+    - Linux / MacOS : ./start.sh
+
+    Notez que le dossier "workingdir" est ajouté automatiquement à votre conteneur et que vous pouvez y ajouter des fichiers pendant l'installation.
 
 ## Liste des paquets :
-    nodejs
-    mysql-server
-    valgrind
-    Betty
-    Python-3.8.5
-    pep8
+    - nodejs
+    - mysql-server
+    - valgrind
+    - Betty
+    - Python-3.8.5
+    - pep8
 
 ## 👦 Auteur
 
