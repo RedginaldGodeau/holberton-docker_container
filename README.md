@@ -15,7 +15,7 @@
         ./start.sh
 ``
 
-"workingdir" est un dossier s'ajoutera automatiquement sur votre container et où vous pouvez ajouter des fichiers lors de l'installation.
+"workingdir" est un dossier qui s'ajoutera automatiquement sur votre container et où vous pouvez ajouter des fichiers lors de l'installation.
 
 ## Liste des paquets :
     nodejs
