@@ -4,7 +4,7 @@ RUN apt-get update -yq \
 && apt-get upgrade -yq \
 && apt-get install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev pkg-config make -yq \
 && apt-get install gnupg zip unzip git wget vim -yq \
-&& apt-get install nodejs -yq \
+&& apt-get install nodejs npm -yq \
 && apt-get install mysql-server -yq\
 && apt-get install valgrind -yq\
 && git clone https://github.com/hs-hq/Betty.git \
