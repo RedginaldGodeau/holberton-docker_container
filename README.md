@@ -6,7 +6,7 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ## ❓ Description
-    Container holberton en version local et plus rapide pour facilier la vie au étudiant
+    Container holberton en version locale et plus rapide pour faciliter la vie aux étudiants
 
 ## 📝 Comment l'installer :
 ``
