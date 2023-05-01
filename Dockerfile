@@ -7,6 +7,7 @@ RUN apt-get update -yq \
 && apt-get install nodejs npm -yq \
 && apt-get install mysql-server -yq\
 && apt-get install valgrind -yq\
+&& apt-get install golang -yq \
 && git clone https://github.com/hs-hq/Betty.git \
 && cd ./Betty && ./install.sh && cd ..  && rm -r ./Betty
 
@@ -18,6 +19,11 @@ RUN cd /opt \
 && make altinstall \
 && cd /opt \
 && rm -f Python-3.8.5.tgz
+
+RUN wget https://github.com/gohugoio/hugo/releases/download/v0.84.1/hugo_extended_0.84.1_Linux-64bit.tar.gz \
+&& tar -xzvf hugo_extended_0.84.1_Linux-64bit.tar.gz \
+&& mv hugo /usr/local/bin/ \
+&& rm hugo_extended_0.84.1_Linux-64bit.tar.gz
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/
 
