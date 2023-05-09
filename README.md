@@ -12,6 +12,11 @@ Ce conteneur Docker est destiné aux étudiants de Holberton pour leur fournir u
 - Docker doit être installé sur votre système
 
 ### Instructions
+1. Récupérer le dépôt : docker pull redginaldgodeau/holberton-dev-container:latest
+2. Lancer le conteneur : docker run -it redginaldgodeau/holberton-dev-container
+
+ou
+
 1. Cloner le dépôt : git clone https://github.com/RedginaldGodeau/Holberton-Docker-Container.git
 2. Accéder au répertoire : cd Holberton-Docker-Container
 3. Lancer le conteneur :
